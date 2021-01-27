@@ -1,0 +1,27 @@
+{
+  "nombre": "Ernesto Sabato",
+  "fechaNacimiento": "1911-09-07",
+  "ciudadProcedencia": "Buenos Aires",
+  "correo": "Ernesto@prueba.com"
+}
+
+{
+  "nombre": "Seix Barral",
+  "direccionCorrespondencia": "calle 1",
+  "telefono": "5555555",
+  "correo": "Seix@prueba.com",
+  "maximoLibros": 2
+}
+
+{
+  "titulo": "La resistencia",
+  "año": "2000",
+  "genero": "L",
+  "numeroPaginas": 128,
+  "editorial": {
+    "idEditorial": 3
+    },
+  "autor": {
+    "idAutor": 3
+    }
+}
