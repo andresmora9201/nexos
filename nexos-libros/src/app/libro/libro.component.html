@@ -1,0 +1,19 @@
+<h3>libros Nexos</h3>
+
+<label for="search">Ingrese patron de busqueda</label>
+
+<input id="search" (ngModelChange)="buscar($event)" [ngModel]="busqueda"/>
+
+<table>    
+    <tbody>
+        <tr *ngFor="let libro of filtro">
+            <td>{{ libro.titulo }}  </td>
+            <td>{{ libro.anio }}</td>
+            <td>{{ libro.genero }}  </td>
+            <td>{{ libro.numeroPaginas }}</td>
+            <td>{{ libro.editorial.nombre }}  </td>            
+            <td>{{ libro.autor.nombre }}  </td>            
+        </tr>
+    </tbody>
+</table>
+
